@@ -11,10 +11,9 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Book {
 
-    private String isbn;
+  private String isbn;
 
-    private String author;
+  private String author;
 
-    private String title;
-    
+  private String title;
 }

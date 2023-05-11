@@ -16,11 +16,9 @@ import lombok.NoArgsConstructor;
 @Table(name = "books")
 public class BookEntity {
 
-    @Id
-    private String isbn;
+  @Id private String isbn;
 
-    private String author;
+  private String author;
 
-    private String title;
-
+  private String title;
 }

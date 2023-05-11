@@ -11,8 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class BookPersistStatus {
 
-    private boolean created;
+  private boolean created;
 
-    private Book book;
-
+  private Book book;
 }
